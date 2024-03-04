@@ -14,11 +14,6 @@ struct ScriptFilterItem: Codable {
   }
 }
 
-struct ScriptFilterFull: Codable {
-  let skipknowledge: Bool
-  let items: [ScriptFilterItem]
-}
-
 func fileSort(_ paths: [URL]) -> [URL] {
   func fileDate(_ filePath: URL) -> Date {
     guard let date = try? filePath.resourceValues(forKeys: [.creationDateKey]).creationDate
@@ -97,5 +92,5 @@ let sfItems = fileSort(filteredScreenshots).map {
 }
 
 // Output JSON
-let jsonData = try JSONEncoder().encode(ScriptFilterFull(skipknowledge: true, items: sfItems))
+let jsonData = try JSONEncoder().encode(["items": sfItems])
 print(String(data: jsonData, encoding: .utf8)!)

@@ -633,6 +633,8 @@
 				<integer>3</integer>
 				<key>filterable</key>
 				<true/>
+				<key>fixedorder</key>
+				<true/>
 				<key>imageaspect</key>
 				<integer>0</integer>
 				<key>inputfile</key>
