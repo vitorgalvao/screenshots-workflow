@@ -36,19 +36,6 @@ let searchQuery = MDQueryCreate(kCFAllocatorDefault, query as CFString, nil, nil
 MDQueryExecute(searchQuery, CFOptionFlags(kMDQuerySynchronous.rawValue))
 let resultCount = MDQueryGetResultCount(searchQuery)
 
-// No results
-guard resultCount > 0 else {
-  print(
-    """
-    {\"items\":[{\"title\":\"No Results\",
-    \"subtitle\":\"Did not find any screenshots\",
-    \"valid\":false}]}
-    """
-  )
-
-  exit(EXIT_SUCCESS)
-}
-
 // Grab relevant screenshots
 let allScreenshots: [URL] = (0..<resultCount).compactMap { resultIndex in
   let rawPointer = MDQueryGetResultAtIndex(searchQuery, resultIndex)
@@ -89,6 +76,19 @@ let sfItems = fileSort(filteredScreenshots).map {
     icon: ScriptFilterItem.FileIcon(path: resultPath),
     arg: resultPath
   )
+}
+
+// No results
+guard sfItems.count > 0 else {
+  print(
+    """
+    {\"items\":[{\"title\":\"No Results\",
+    \"subtitle\":\"Did not find any screenshots\",
+    \"valid\":false}]}
+    """
+  )
+
+  exit(EXIT_SUCCESS)
 }
 
 // Output JSON
