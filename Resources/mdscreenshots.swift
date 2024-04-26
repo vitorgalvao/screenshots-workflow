@@ -31,6 +31,7 @@ func fileSort(_ paths: [URL]) -> [URL] {
 // Prepare query
 let query = "kMDItemIsScreenCapture == 1"
 let searchQuery = MDQueryCreate(kCFAllocatorDefault, query as CFString, nil, nil)
+MDQuerySetSearchScope(searchQuery, [ProcessInfo.processInfo.environment["screenshot_folder"]] as CFArray, 0)
 
 // Run query
 MDQueryExecute(searchQuery, CFOptionFlags(kMDQuerySynchronous.rawValue))
@@ -42,35 +43,21 @@ let allScreenshots: [URL] = (0..<resultCount).compactMap { resultIndex in
   let resultItem = Unmanaged<MDItem>.fromOpaque(rawPointer!).takeUnretainedValue()
 
   guard let resultPath = MDItemCopyAttribute(resultItem, kMDItemPath) as? String else { return nil }
+
+  // Exclude results in ~/Library
+  for libraryURL in FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask) {
+    guard !resultPath.hasPrefix(libraryURL.path) else { return nil } }
+
   return URL(fileURLWithPath: resultPath)
 }
 
-let filteredScreenshots = {
-  // Show every screenshot, exluding ~/Library
-  let library = FileManager.default.urls(for: .libraryDirectory, in: .userDomainMask)[0]
-
-  guard ProcessInfo.processInfo.environment["only_desktop"] == "1" else {
-    return allScreenshots.filter({ !$0.path.hasPrefix(library.path) })
-  }
-
-  // Show every screenshot in ~/Desktop and subfolders
-  let desktop = FileManager.default.urls(for: .desktopDirectory, in: .userDomainMask)[0]
-
-  guard ProcessInfo.processInfo.environment["include_subdirectories"] == "0" else {
-    return allScreenshots.filter({ $0.path.hasPrefix(desktop.path) })
-  }
-
-  // Show only screenshots at the root of ~/Desktop
-  return allScreenshots.filter({ $0.deletingLastPathComponent() == desktop })
-}()
-
 // Prepare items
-let sfItems = fileSort(filteredScreenshots).map {
+let sfItems = fileSort(allScreenshots).map {
   let resultPath = $0.path
 
   return ScriptFilterItem(
     uid: resultPath,
-    title: URL(fileURLWithPath: resultPath).lastPathComponent,
+    title: $0.lastPathComponent,
     subtitle: (resultPath as NSString).abbreviatingWithTildeInPath,
     type: "file",
     icon: ScriptFilterItem.FileIcon(path: resultPath),

@@ -1583,39 +1583,22 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<true/>
+				<string>~/Desktop</string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string></string>
 				<key>required</key>
 				<false/>
-				<key>text</key>
-				<string>Only show screenshots in Desktop</string>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keyword and folder to search screenshots.</string>
 			<key>label</key>
-			<string>Filters</string>
+			<string>Screenshots Folder</string>
 			<key>type</key>
-			<string>checkbox</string>
+			<string>filepicker</string>
 			<key>variable</key>
-			<string>only_desktop</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<true/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
-				<string>Include Desktop sub folders</string>
-			</dict>
-			<key>description</key>
-			<string>Keyword and options for searching screenshots.</string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>include_subdirectories</string>
+			<string>screenshot_folder</string>
 		</dict>
 		<dict>
 			<key>config</key>
