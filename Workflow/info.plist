@@ -75,17 +75,38 @@
 				<false/>
 			</dict>
 		</array>
-		<key>1583EDC8-5C32-475D-A9F6-155DC11651C5</key>
+		<key>146C599C-05A3-4243-AE0A-228D05168424</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>7D660F0C-DFA9-4ECE-B5B8-A1AA91232EDE</string>
+				<string>8B0C5D4A-D96B-4D4C-9221-187606F82481</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>sourceoutputuid</key>
-				<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1EF5E043-CBC4-4D5A-BB1D-AE870C6809DA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC7F36B2-E09E-404C-87BC-878932D751E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>13D14185-7171-4FEB-A411-2A03B135639F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -157,21 +178,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2E7D33E1-4E5C-4BA1-94FF-F21292FB1834</key>
+		<key>2E54628B-3679-4F1D-AAC6-90F3E7FBF755</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3F239DB8-763C-4F6E-A556-C8ABEA59694B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>13D14185-7171-4FEB-A411-2A03B135639F</string>
+				<string>A2837263-BE9E-4A8F-822C-83639C4D638F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -197,17 +208,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2E7D33E1-4E5C-4BA1-94FF-F21292FB1834</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6E7EE798-109C-4BCB-A76E-2A117DBB3CB5</string>
+				<string>42532297-01AB-420D-89C3-B471623711D5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -234,6 +235,44 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E8CDBA37-4BFF-4B7E-88CD-3EAB5EFCD47A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F239DB8-763C-4F6E-A556-C8ABEA59694B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>42532297-01AB-420D-89C3-B471623711D5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EF5E043-CBC4-4D5A-BB1D-AE870C6809DA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>784C7F45-A53D-45AC-85AC-883AF228F453</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C1A0655F-2616-45CC-8AA5-BE6600086BBF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -285,6 +324,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>57485010-4D75-4BF5-8AAD-373EFF97863E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5EF556CE-941F-4809-9F6A-9DE52FEB5152</key>
 		<array>
 			<dict>
@@ -307,34 +359,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>6E7EE798-109C-4BCB-A76E-2A117DBB3CB5</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1583EDC8-5C32-475D-A9F6-155DC11651C5</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>7D660F0C-DFA9-4ECE-B5B8-A1AA91232EDE</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>55D2CF31-D77C-4DCD-8F66-17A2265DEDDF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>_button1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -390,6 +414,62 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9DE0FBF5-CBF4-485B-95F3-78F80C372169</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>146C599C-05A3-4243-AE0A-228D05168424</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Delete</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A2837263-BE9E-4A8F-822C-83639C4D638F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF11A705-512F-421E-B60A-AF072EBD6488</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Delete</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9DE0FBF5-CBF4-485B-95F3-78F80C372169</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>57485010-4D75-4BF5-8AAD-373EFF97863E</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy image URL</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>B2D9203E-E517-4CB8-A730-493493997B97</key>
 		<array>
 			<dict>
@@ -414,6 +494,46 @@
 				<string></string>
 				<key>vitoclose</key>
 				<true/>
+			</dict>
+		</array>
+		<key>C1A0655F-2616-45CC-8AA5-BE6600086BBF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC833EB1-7E2F-4AAF-92C1-71706F2E9BCC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3B6250E3-3A8B-42B0-91F0-8DACA2C85101</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>CC7F36B2-E09E-404C-87BC-878932D751E9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F239DB8-763C-4F6E-A556-C8ABEA59694B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
 		<key>CF19EDF5-B524-4171-9666-AC327E9185DF</key>
@@ -457,10 +577,33 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DF11A705-512F-421E-B60A-AF072EBD6488</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>146C599C-05A3-4243-AE0A-228D05168424</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>E8CDBA37-4BFF-4B7E-88CD-3EAB5EFCD47A</key>
 		<array/>
 		<key>EDB57130-8761-496D-ADE2-ACAE5F458C6B</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2E54628B-3679-4F1D-AAC6-90F3E7FBF755</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>View uploaded images</string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>29CA78D0-485E-4111-872B-F29C62E1E534</string>
@@ -785,6 +928,213 @@
 			<integer>2</integer>
 		</dict>
 		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>DF11A705-512F-421E-B60A-AF072EBD6488</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>columncount</key>
+				<integer>3</integer>
+				<key>filterable</key>
+				<false/>
+				<key>fixedorder</key>
+				<true/>
+				<key>imageaspect</key>
+				<integer>0</integer>
+				<key>inputfile</key>
+				<string></string>
+				<key>inputtype</key>
+				<integer>0</integer>
+				<key>loadingtext</key>
+				<string></string>
+				<key>showsubtitles</key>
+				<true/>
+				<key>showtitles</key>
+				<true/>
+				<key>subtitlesinfooter</key>
+				<true/>
+				<key>titlesinfooter</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.grid</string>
+			<key>uid</key>
+			<string>A2837263-BE9E-4A8F-822C-83639C4D638F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:imgur_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>↩ Take and upload interactive screenshot · ⌥↩ View uploaded images</string>
+				<key>text</key>
+				<string>Screenshot to Imgur</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EDB57130-8761-496D-ADE2-ACAE5F458C6B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function padDate(number) {
+  return number.toString().padStart(2, "0")
+}
+
+function dirContents(path) {
+  try {
+    return $.NSFileManager.defaultManager.contentsOfDirectoryAtURLIncludingPropertiesForKeysOptionsError(
+      $.NSURL.fileURLWithPath(path),
+      undefined,
+      $.NSDirectoryEnumerationSkipsHiddenFiles, undefined).js.map(p =&gt; p.path.js)
+  } catch {
+    return []
+  }
+}
+
+function readMetadata(mdkey, path) {
+  // Read plist
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/xattr")
+  task.arguments = ["-p", `com.apple.metadata:${mdkey}`, path]
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  return $.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(dataOut, [], undefined, undefined).js
+}
+
+function run() {
+  const imgurDir = `${envVar("alfred_workflow_data")}/imgur`
+
+  const sfItems = dirContents(imgurDir).toReversed().map(file =&gt; {
+    const imageURL = readMetadata("kMDItemWhereFroms", file)
+    const deleteURL = readMetadata("kMDItemInformation", file)
+
+    // Recover upload date from name
+    const imageDateString = $(file).stringByDeletingPathExtension.lastPathComponent.js.replace(/-.*/, "")
+    const uploadDate = new Date(parseInt(imageDateString))
+    const uploadYear = uploadDate.getFullYear()
+    const uploadMonth = padDate(uploadDate.getMonth() + 1) // Months are zero-based
+    const uploadDay = padDate(uploadDate.getDate())
+    const uploadHour = padDate(uploadDate.getHours())
+    const uploadMinute = padDate(uploadDate.getMinutes())
+    const uploadSecond = padDate(uploadDate.getSeconds())
+    const uploadParsed = `${uploadYear}/${uploadMonth}/${uploadDay} ${uploadHour}:${uploadMinute}:${uploadSecond}`
+
+    return {
+      variables: { image_url: imageURL, delete_url: deleteURL, image_icon: file },
+      title: uploadParsed,
+      subtitle: "↩ Preview · ⌘↩ Delete from Imgur · ⌥↩ Copy image URL",
+      icon: { path: file },
+      type: "file",
+      arg: file
+    }
+  })
+
+  return JSON.stringify({ items: sfItems })
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>2E54628B-3679-4F1D-AAC6-90F3E7FBF755</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_path</key>
+					<string>{var:image_icon}</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>8B0C5D4A-D96B-4D4C-9221-187606F82481</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>imageresizemode</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.image</string>
+			<key>uid</key>
+			<string>9DE0FBF5-CBF4-485B-95F3-78F80C372169</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<true/>
+				<key>skipvarencode</key>
+				<true/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:delete_url}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>146C599C-05A3-4243-AE0A-228D05168424</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>config</key>
 			<dict>
 				<key>action</key>
@@ -812,29 +1162,6 @@
 			<string>2EA9894C-5C84-4A43-8BAA-A6ADE2BA0BD1</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:imgur_keyword}</string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string>Take an interactive screenshot and upload it to Imgur</string>
-				<key>text</key>
-				<string>Screenshot to Imgur</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>EDB57130-8761-496D-ADE2-ACAE5F458C6B</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -868,6 +1195,31 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>29CA78D0-485E-4111-872B-F29C62E1E534</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>57485010-4D75-4BF5-8AAD-373EFF97863E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:image_url}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -945,19 +1297,116 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputmode</key>
-				<integer>1</integer>
-				<key>outputmode</key>
-				<integer>1</integer>
-				<key>shortcut</key>
-				<string>Upload to Imgur</string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.runshortcut</string>
+			<string>alfred.workflow.utility.transform</string>
 			<key>uid</key>
-			<string>2E7D33E1-4E5C-4BA1-94FF-F21292FB1834</string>
+			<string>CC7F36B2-E09E-404C-87BC-878932D751E9</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>// Helpers
+function envVar(varName) {
+  return $.NSProcessInfo
+    .processInfo
+    .environment
+    .objectForKey(varName).js
+}
+
+function writeMetadata(mdKey, path, newValue) {
+  // Convert to plist
+  const plistData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(newValue, $.NSPropertyListXMLFormat_v1_0,  0, undefined)
+  const plistString = $.NSString.alloc.initWithDataEncoding(plistData, $.NSUTF8StringEncoding).js
+
+  // Write plist
+  const task = $.NSTask.alloc.init
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/xattr")
+  task.arguments = ["-w", `com.apple.metadata:${mdKey}`, plistString, path]
+  task.launchAndReturnError(false)
+}
+
+function uploadImage(imagePath, apiKey) {
+  const task = $.NSTask.alloc.init
+  const stdout = $.NSPipe.pipe
+
+  task.executableURL = $.NSURL.fileURLWithPath("/usr/bin/curl")
+  task.arguments = [
+    "--silent",
+    "--header", `Authorization: Client-ID ${apiKey}`,
+    "--form", `image=@${imagePath.replaceAll('"', '\"')}`,
+    "https://api.imgur.com/3/image.json"
+  ]
+
+  task.standardOutput = stdout
+  task.launchAndReturnError(false)
+
+  const dataOut = stdout.fileHandleForReading.readDataToEndOfFileAndReturnError(false)
+  const stringOut = $.NSString.alloc.initWithDataEncoding(dataOut, $.NSUTF8StringEncoding).js
+
+  return JSON.parse(stringOut)
+}
+
+// Main
+function run(argv) {
+  const fileManager = $.NSFileManager.defaultManager
+  const apiKey = envVar("imgur_api_key")
+  const imgurDir = `${envVar("alfred_workflow_data")}/imgur`
+
+  // Ensure images folder
+  fileManager.createDirectoryAtPathWithIntermediateDirectoriesAttributesError(
+    imgurDir, true, undefined, undefined)
+
+  // Upload and collect details for all images
+  return argv.map(image =&gt; {
+    const response = uploadImage(image, apiKey)
+
+    // Failure
+    if (!response.success) {
+      console.log(JSON.stringify(response))
+      throw `Failed to upload ${image}`
+    }
+
+    // Get details
+    const deleteURL = `https://imgur.com/delete/${response.data.deletehash}`
+    const imageURL = response.data.link
+
+    // Name image from date
+    const uid = $.NSProcessInfo.processInfo.globallyUniqueString.js.split("-")[0]
+    const imageExt = $(image).pathExtension.js
+    const imageIcon = `${imgurDir}/${Date.now()}-${uid}.${imageExt}`
+    fileManager.copyItemAtPathToPathError(image, imageIcon, undefined)
+
+    // Write metadata
+    writeMetadata("kMDItemWhereFroms", imageIcon, imageURL)
+    writeMetadata("kMDItemInformation", imageIcon, deleteURL)
+
+    // Return link for copy
+    return imageURL
+  }).join("\n")
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1EF5E043-CBC4-4D5A-BB1D-AE870C6809DA</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1046,6 +1495,38 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:imgur_api_key}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Has Key</string>
+						<key>uid</key>
+						<string>784C7F45-A53D-45AC-85AC-883AF228F453</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>No Key</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>42532297-01AB-420D-89C3-B471623711D5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>delimiter</key>
 				<string>	</string>
 				<key>discardemptyarguments</key>
@@ -1127,43 +1608,7 @@
 			<key>config</key>
 			<dict>
 				<key>tasksettings</key>
-				<dict>
-					<key>target_shortcut</key>
-					<string>Upload to Imgur</string>
-				</dict>
-				<key>taskuid</key>
-				<string>com.alfredapp.automation.core/shortcuts/shortcut.installed</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.automation.task</string>
-			<key>uid</key>
-			<string>6E7EE798-109C-4BCB-A76E-2A117DBB3CB5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>Upload to Imgur.shortcut</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>55D2CF31-D77C-4DCD-8F66-17A2265DEDDF</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>tasksettings</key>
-				<dict>
-					<key>target_path</key>
-					<string>{var:image_path}</string>
-				</dict>
+				<dict/>
 				<key>taskuid</key>
 				<string>com.alfredapp.automation.core/files-and-folders/path.trash</string>
 			</dict>
@@ -1192,53 +1637,64 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>button1</key>
-				<string>Install Shortcut</string>
-				<key>button2</key>
-				<string>Cancel</string>
-				<key>button3</key>
+				<key>browser</key>
 				<string></string>
-				<key>description</key>
-				<string>A Shorcut is required to perform this action.</string>
-				<key>title</key>
-				<string>Shortcut Not Installed</string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>alfredpreferences://navigateto/workflows&gt;workflow&gt;{const:alfred_workflow_uid}&gt;userconfig&gt;imgur_api_key</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.dialog</string>
+			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>7D660F0C-DFA9-4ECE-B5B8-A1AA91232EDE</string>
+			<string>AC833EB1-7E2F-4AAF-92C1-71706F2E9BCC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>6</integer>
-						<key>matchstring</key>
-						<string></string>
-						<key>outputlabel</key>
-						<string>Missing Shortcut</string>
-						<key>uid</key>
-						<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string></string>
-				<key>hideelse</key>
-				<true/>
+				<key>button1</key>
+				<string>Open Workflow Preferences</string>
+				<key>button2</key>
+				<string>Open API Key Page</string>
+				<key>button3</key>
+				<string>Cancel</string>
+				<key>description</key>
+				<string>Get one and configure it in the workflow.
+https://api.imgur.com/oauth2/addclient</string>
+				<key>title</key>
+				<string>No API Client ID Key Set</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
-			<string>1583EDC8-5C32-475D-A9F6-155DC11651C5</string>
+			<string>C1A0655F-2616-45CC-8AA5-BE6600086BBF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://api.imgur.com/oauth2/addclient</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3B6250E3-3A8B-42B0-91F0-8DACA2C85101</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1271,7 +1727,7 @@ View clipboard images via the `clipimg` keyword.
 
 ![Showing clipboard screenshots grid](images/about/clipgrid.png)
 
-Take an interactive screenshot and upload it to Imgur via the `imgur` keyword.
+Take an interactive screenshot and upload it to Imgur via the `imgur` keyword. This requires [getting an API client ID](https://api.imgur.com/oauth2/addclient) and adding it in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
 ![Take screenshot to imgur](images/about/imgurkeyword.png)
 
@@ -1279,7 +1735,13 @@ Alternatively, upload any image with the [Universal Action](https://www.alfredap
 
 ![Upload to Imgur with Universal Action](images/about/imgurua.png)
 
-Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.</string>
+View uploaded images with &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; in the `imgur` keyword.
+
+![Viewing uploaded images](images/about/imguruploaded.png)
+
+* &lt;kbd&gt;↩&lt;/kbd&gt; View in Alfred.
+* &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Delete from Imgur.
+* &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy image URL.</string>
 	<key>uidata</key>
 	<dict>
 		<key>036C0BA8-B6B3-42BF-B574-9E1551C612DA</key>
@@ -1299,18 +1761,23 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 		<key>13D14185-7171-4FEB-A411-2A03B135639F</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>915</real>
 			<key>ypos</key>
-			<real>1355</real>
+			<real>1320</real>
 		</dict>
-		<key>1583EDC8-5C32-475D-A9F6-155DC11651C5</key>
+		<key>146C599C-05A3-4243-AE0A-228D05168424</key>
 		<dict>
-			<key>colorindex</key>
-			<integer>9</integer>
 			<key>xpos</key>
-			<real>775</real>
+			<real>1115</real>
 			<key>ypos</key>
-			<real>1490</real>
+			<real>825</real>
+		</dict>
+		<key>1EF5E043-CBC4-4D5A-BB1D-AE870C6809DA</key>
+		<dict>
+			<key>xpos</key>
+			<real>725</real>
+			<key>ypos</key>
+			<real>1290</real>
 		</dict>
 		<key>20A3B9D4-7548-4FE6-8BF8-3DCDD2A87ECB</key>
 		<dict>
@@ -1324,14 +1791,14 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>70</real>
 			<key>ypos</key>
-			<real>1460</real>
+			<real>1425</real>
 		</dict>
 		<key>29CA78D0-485E-4111-872B-F29C62E1E534</key>
 		<dict>
 			<key>xpos</key>
 			<real>235</real>
 			<key>ypos</key>
-			<real>1045</real>
+			<real>985</real>
 		</dict>
 		<key>2DA7DC13-AADD-488D-A241-FC02AA754657</key>
 		<dict>
@@ -1345,16 +1812,16 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>note</key>
 			<string>Continue if screenshot</string>
 			<key>xpos</key>
-			<real>1330</real>
+			<real>1500</real>
 			<key>ypos</key>
-			<real>1340</real>
+			<real>1305</real>
 		</dict>
-		<key>2E7D33E1-4E5C-4BA1-94FF-F21292FB1834</key>
+		<key>2E54628B-3679-4F1D-AAC6-90F3E7FBF755</key>
 		<dict>
 			<key>xpos</key>
-			<real>625</real>
+			<real>310</real>
 			<key>ypos</key>
-			<real>1325</real>
+			<real>825</real>
 		</dict>
 		<key>2EA9894C-5C84-4A43-8BAA-A6ADE2BA0BD1</key>
 		<dict>
@@ -1365,12 +1832,12 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>70</real>
 			<key>ypos</key>
-			<real>845</real>
+			<real>955</real>
 		</dict>
 		<key>38434927-3CFC-41F5-A1A7-922E15E6A72C</key>
 		<dict>
 			<key>xpos</key>
-			<real>1090</real>
+			<real>1115</real>
 			<key>ypos</key>
 			<real>355</real>
 		</dict>
@@ -1379,7 +1846,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>495</real>
 			<key>ypos</key>
-			<real>1355</real>
+			<real>1320</real>
 		</dict>
 		<key>3A3AA900-8DF6-4C3E-BFD4-93D0CE3F0F65</key>
 		<dict>
@@ -1392,12 +1859,33 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>ypos</key>
 			<real>640</real>
 		</dict>
+		<key>3B6250E3-3A8B-42B0-91F0-8DACA2C85101</key>
+		<dict>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>1680</real>
+		</dict>
 		<key>3F239DB8-763C-4F6E-A556-C8ABEA59694B</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>1115</real>
 			<key>ypos</key>
-			<real>1170</real>
+			<real>1135</real>
+		</dict>
+		<key>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</key>
+		<dict>
+			<key>xpos</key>
+			<real>1030</real>
+			<key>ypos</key>
+			<real>985</real>
+		</dict>
+		<key>42532297-01AB-420D-89C3-B471623711D5</key>
+		<dict>
+			<key>xpos</key>
+			<real>585</real>
+			<key>ypos</key>
+			<real>1310</real>
 		</dict>
 		<key>514320D1-76D8-436E-8E72-88DE959879D5</key>
 		<dict>
@@ -1409,18 +1897,16 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 		<key>5542DB4F-F786-4324-B4F6-9477892800E0</key>
 		<dict>
 			<key>xpos</key>
-			<real>1090</real>
+			<real>1115</real>
 			<key>ypos</key>
 			<real>205</real>
 		</dict>
-		<key>55D2CF31-D77C-4DCD-8F66-17A2265DEDDF</key>
+		<key>57485010-4D75-4BF5-8AAD-373EFF97863E</key>
 		<dict>
-			<key>colorindex</key>
-			<integer>9</integer>
 			<key>xpos</key>
-			<real>985</real>
+			<real>840</real>
 			<key>ypos</key>
-			<real>1460</real>
+			<real>985</real>
 		</dict>
 		<key>5EF556CE-941F-4809-9F6A-9DE52FEB5152</key>
 		<dict>
@@ -1434,46 +1920,35 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>310</real>
 			<key>ypos</key>
-			<real>1015</real>
+			<real>955</real>
 		</dict>
 		<key>6ACA0236-EECB-4D6B-89DF-C3C386AC7EBE</key>
 		<dict>
 			<key>xpos</key>
-			<real>1410</real>
+			<real>1580</real>
 			<key>ypos</key>
-			<real>1460</real>
-		</dict>
-		<key>6E7EE798-109C-4BCB-A76E-2A117DBB3CB5</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>9</integer>
-			<key>xpos</key>
-			<real>625</real>
-			<key>ypos</key>
-			<real>1460</real>
-		</dict>
-		<key>7D660F0C-DFA9-4ECE-B5B8-A1AA91232EDE</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>9</integer>
-			<key>xpos</key>
-			<real>845</real>
-			<key>ypos</key>
-			<real>1480</real>
+			<real>1425</real>
 		</dict>
 		<key>7D925F51-5AD8-439A-9C33-EBA607B435DE</key>
 		<dict>
 			<key>xpos</key>
-			<real>1120</real>
+			<real>1290</real>
 			<key>ypos</key>
-			<real>1345</real>
+			<real>1310</real>
+		</dict>
+		<key>8B0C5D4A-D96B-4D4C-9221-187606F82481</key>
+		<dict>
+			<key>xpos</key>
+			<real>1340</real>
+			<key>ypos</key>
+			<real>825</real>
 		</dict>
 		<key>94526ED7-B2CC-46F0-9E61-795A4E5C447F</key>
 		<dict>
 			<key>xpos</key>
 			<real>70</real>
 			<key>ypos</key>
-			<real>1325</real>
+			<real>1290</real>
 		</dict>
 		<key>9A74EAE9-E4CE-4E5B-9F4A-FE951A77C948</key>
 		<dict>
@@ -1481,6 +1956,27 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<real>840</real>
 			<key>ypos</key>
 			<real>535</real>
+		</dict>
+		<key>9DE0FBF5-CBF4-485B-95F3-78F80C372169</key>
+		<dict>
+			<key>xpos</key>
+			<real>880</real>
+			<key>ypos</key>
+			<real>825</real>
+		</dict>
+		<key>A2837263-BE9E-4A8F-822C-83639C4D638F</key>
+		<dict>
+			<key>xpos</key>
+			<real>625</real>
+			<key>ypos</key>
+			<real>825</real>
+		</dict>
+		<key>AC833EB1-7E2F-4AAF-92C1-71706F2E9BCC</key>
+		<dict>
+			<key>xpos</key>
+			<real>980</real>
+			<key>ypos</key>
+			<real>1545</real>
 		</dict>
 		<key>B2D9203E-E517-4CB8-A730-493493997B97</key>
 		<dict>
@@ -1496,14 +1992,28 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>ypos</key>
 			<real>355</real>
 		</dict>
+		<key>C1A0655F-2616-45CC-8AA5-BE6600086BBF</key>
+		<dict>
+			<key>xpos</key>
+			<real>765</real>
+			<key>ypos</key>
+			<real>1580</real>
+		</dict>
+		<key>CC7F36B2-E09E-404C-87BC-878932D751E9</key>
+		<dict>
+			<key>xpos</key>
+			<real>915</real>
+			<key>ypos</key>
+			<real>1165</real>
+		</dict>
 		<key>CF19EDF5-B524-4171-9666-AC327E9185DF</key>
 		<dict>
 			<key>note</key>
 			<string>Continue if trashing</string>
 			<key>xpos</key>
-			<real>985</real>
+			<real>1035</real>
 			<key>ypos</key>
-			<real>1355</real>
+			<real>1320</real>
 		</dict>
 		<key>D43B26FE-62AD-41EE-A740-0996EF1B82CB</key>
 		<dict>
@@ -1514,7 +2024,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>70</real>
 			<key>ypos</key>
-			<real>1170</real>
+			<real>1135</real>
 		</dict>
 		<key>DC6BDCBA-D8AC-4C35-8F28-1FC2F9310D89</key>
 		<dict>
@@ -1527,31 +2037,38 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>ypos</key>
 			<real>205</real>
 		</dict>
+		<key>DF11A705-512F-421E-B60A-AF072EBD6488</key>
+		<dict>
+			<key>xpos</key>
+			<real>840</real>
+			<key>ypos</key>
+			<real>745</real>
+		</dict>
 		<key>E7EC0B3B-EE50-47E6-9574-9BFF87D047D4</key>
 		<dict>
 			<key>xpos</key>
-			<real>1090</real>
+			<real>1115</real>
 			<key>ypos</key>
 			<real>505</real>
 		</dict>
 		<key>E8CDBA37-4BFF-4B7E-88CD-3EAB5EFCD47A</key>
 		<dict>
 			<key>xpos</key>
-			<real>1120</real>
+			<real>1285</real>
 			<key>ypos</key>
-			<real>1170</real>
+			<real>1135</real>
 		</dict>
 		<key>EDB57130-8761-496D-ADE2-ACAE5F458C6B</key>
 		<dict>
 			<key>xpos</key>
 			<real>70</real>
 			<key>ypos</key>
-			<real>1015</real>
+			<real>825</real>
 		</dict>
 		<key>F4EB8BAE-5AE1-4EC9-AFFF-6E2CDA4AB4F4</key>
 		<dict>
 			<key>xpos</key>
-			<real>1090</real>
+			<real>1115</real>
 			<key>ypos</key>
 			<real>55</real>
 		</dict>
@@ -1646,6 +2163,27 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>Get it at https://api.imgur.com/oauth2/addclient</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>API Client ID</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>imgur_api_key</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<false/>
 				<key>required</key>
 				<false/>
@@ -1681,8 +2219,6 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<string>only_trash_screenshot</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>2024.3</string>
 	<key>webaddress</key>
