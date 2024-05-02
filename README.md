@@ -31,7 +31,7 @@ View clipboard images via the `clipimg` keyword.
 
 ![Showing clipboard screenshots grid](Workflow/images/about/clipgrid.png)
 
-Take an interactive screenshot and upload it to Imgur via the `imgur` keyword.
+Take an interactive screenshot and upload it to Imgur via the `imgur` keyword. This requires [getting an API client ID](https://api.imgur.com/oauth2/addclient) and adding it in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
 ![Take screenshot to imgur](Workflow/images/about/imgurkeyword.png)
 
@@ -39,4 +39,10 @@ Alternatively, upload any image with the [Universal Action](https://www.alfredap
 
 ![Upload to Imgur with Universal Action](Workflow/images/about/imgurua.png)
 
-Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) for faster triggering.
+View uploaded images with <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> in the `imgur` keyword.
+
+![Viewing uploaded images](Workflow/images/about/imguruploaded.png)
+
+* <kbd>↩&#xFE0E;</kbd> View in Alfred.
+* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Delete from Imgur.
+* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Copy image URL.
