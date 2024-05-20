@@ -1325,7 +1325,7 @@ function envVar(varName) {
 
 function writeMetadata(mdKey, path, newValue) {
   // Convert to plist
-  const plistData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(newValue, $.NSPropertyListXMLFormat_v1_0,  0, undefined)
+  const plistData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(newValue, $.NSPropertyListXMLFormat_v1_0, 0, undefined)
   const plistString = $.NSString.alloc.initWithDataEncoding(plistData, $.NSUTF8StringEncoding).js
 
   // Write plist
