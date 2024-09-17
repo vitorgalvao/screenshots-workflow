@@ -1039,7 +1039,7 @@ function readMetadata(mdkey, path) {
 function run() {
   const imgurDir = `${envVar("alfred_workflow_data")}/imgur`
 
-  const sfItems = dirContents(imgurDir).toReversed().map(file =&gt; {
+  const sfItems = dirContents(imgurDir).toSorted().toReversed().map(file =&gt; {
     const imageURL = readMetadata("kMDItemWhereFroms", file)
     const deleteURL = readMetadata("kMDItemInformation", file)
 
