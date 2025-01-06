@@ -48,6 +48,29 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C191E94-CA0A-4EF1-9AF3-08FA9F28B2D0</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Move to trash</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0FD754F9-97EE-4C22-AAE0-CFB1D5436994</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C191E94-CA0A-4EF1-9AF3-08FA9F28B2D0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>116A2E68-0ACD-4B9D-897C-9345183EAC4E</key>
 		<array>
@@ -320,6 +343,16 @@
 				<integer>131072</integer>
 				<key>modifiersubtext</key>
 				<string>Upload to Imgur</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0FD754F9-97EE-4C22-AAE0-CFB1D5436994</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Move to trash</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -926,6 +959,14 @@
 			<string>3A3AA900-8DF6-4C3E-BFD4-93D0CE3F0F65</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>0FD754F9-97EE-4C22-AAE0-CFB1D5436994</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -1712,6 +1753,8 @@ Search screenshots via the `screenshots` keyword.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy to clipboard.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Reveal in Finder.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Upload to [Imgur](https://imgur.com).
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Move to trash.
+
 
 ![Showing single image](images/about/imagepreview.png)
 
@@ -1719,6 +1762,7 @@ Search screenshots via the `screenshots` keyword.
 * &lt;kbd&gt;⌘&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Copy to clipboard.
 * &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Reveal in Finder.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Upload to [Imgur](https://imgur.com).
+* &lt;kbd&gt;⌃&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Move to trash.
 * &lt;kbd&gt;⎋&lt;/kbd&gt; Return to Grid View.
 
 View clipboard images via the `clipimg` keyword.
@@ -1750,6 +1794,13 @@ View uploaded images with &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; i
 			<real>880</real>
 			<key>ypos</key>
 			<real>205</real>
+		</dict>
+		<key>0FD754F9-97EE-4C22-AAE0-CFB1D5436994</key>
+		<dict>
+			<key>xpos</key>
+			<real>770</real>
+			<key>ypos</key>
+			<real>645</real>
 		</dict>
 		<key>116A2E68-0ACD-4B9D-897C-9345183EAC4E</key>
 		<dict>
@@ -1956,6 +2007,13 @@ View uploaded images with &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; i
 			<real>840</real>
 			<key>ypos</key>
 			<real>535</real>
+		</dict>
+		<key>9C191E94-CA0A-4EF1-9AF3-08FA9F28B2D0</key>
+		<dict>
+			<key>xpos</key>
+			<real>1115</real>
+			<key>ypos</key>
+			<real>635</real>
 		</dict>
 		<key>9DE0FBF5-CBF4-485B-95F3-78F80C372169</key>
 		<dict>
@@ -2220,7 +2278,7 @@ View uploaded images with &lt;kbd&gt;⌥&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; i
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2024.6</string>
+	<string>2025.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/screenshots-workflow/</string>
 </dict>
