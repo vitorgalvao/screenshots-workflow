@@ -1702,6 +1702,8 @@ https://api.imgur.com/oauth2/addclient</string>
 	<key>readme</key>
 	<string>## Usage
 
+### Files
+
 Search screenshots via the `screenshots` keyword.
 
 ![Starting screenshots search](images/about/filekeyword.png)
@@ -1721,11 +1723,15 @@ Search screenshots via the `screenshots` keyword.
 * &lt;kbd&gt;⇧&lt;/kbd&gt;&lt;kbd&gt;↩&lt;/kbd&gt; Upload to [Imgur](https://imgur.com).
 * &lt;kbd&gt;⎋&lt;/kbd&gt; Return to Grid View.
 
-View clipboard images via the `clipimg` keyword.
+### Clipboard
+
+View clipboard images via the `clipimg` keyword. The same actions as searching files apply.
 
 ![Keyword to view clipboard images](images/about/clipkeyword.png)
 
 ![Showing clipboard screenshots grid](images/about/clipgrid.png)
+
+### Web
 
 Take an interactive screenshot and upload it to Imgur via the `imgur` keyword. This requires [getting an API client ID](https://api.imgur.com/oauth2/addclient) and adding it in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
