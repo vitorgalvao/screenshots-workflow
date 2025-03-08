@@ -6,6 +6,8 @@ Search and act on screenshots
 
 ## Usage
 
+### Files
+
 Search screenshots via the `screenshots` keyword.
 
 ![Starting screenshots search](Workflow/images/about/filekeyword.png)
@@ -25,11 +27,15 @@ Search screenshots via the `screenshots` keyword.
 * <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Upload to [Imgur](https://imgur.com).
 * <kbd>⎋</kbd> Return to Grid View.
 
-View clipboard images via the `clipimg` keyword.
+### Clipboard
+
+View clipboard images via the `clipimg` keyword. The same actions as searching files apply.
 
 ![Keyword to view clipboard images](Workflow/images/about/clipkeyword.png)
 
 ![Showing clipboard screenshots grid](Workflow/images/about/clipgrid.png)
+
+### Web
 
 Take an interactive screenshot and upload it to Imgur via the `imgur` keyword. This requires [getting an API client ID](https://api.imgur.com/oauth2/addclient) and adding it in the [Workflow’s Configuration](https://www.alfredapp.com/help/workflows/user-configuration/).
 
