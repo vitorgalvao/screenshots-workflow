@@ -14,17 +14,18 @@ Search screenshots via the `screenshots` keyword.
 
 ![Showing file screenshots grid](Workflow/images/about/filegrid.png)
 
-* <kbd>↩&#xFE0E;</kbd> View in Alfred.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Copy to clipboard.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Reveal in Finder.
-* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Upload to [Imgur](https://imgur.com).
+* <kbd>↩</kbd> View in Alfred.
+* <kbd>⌘</kbd><kbd>↩</kbd> Copy to clipboard.
+* <kbd>⌥</kbd><kbd>↩</kbd> Reveal in Finder.
+* <kbd>⌃</kbd><kbd>↩</kbd> Rerun search with Optical Character Recognition on images.
+* <kbd>⇧</kbd><kbd>↩</kbd> Upload to [Imgur](https://imgur.com).
 
 ![Showing single image](Workflow/images/about/imagepreview.png)
 
-* <kbd>↩&#xFE0E;</kbd> Show compatible apps for opening.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Copy to clipboard.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Reveal in Finder.
-* <kbd>⇧</kbd><kbd>↩&#xFE0E;</kbd> Upload to [Imgur](https://imgur.com).
+* <kbd>↩</kbd> Show compatible apps for opening.
+* <kbd>⌘</kbd><kbd>↩</kbd> Copy to clipboard.
+* <kbd>⌥</kbd><kbd>↩</kbd> Reveal in Finder.
+* <kbd>⇧</kbd><kbd>↩</kbd> Upload to [Imgur](https://imgur.com).
 * <kbd>⎋</kbd> Return to Grid View.
 
 ### Clipboard
@@ -45,10 +46,10 @@ Alternatively, upload any image with the [Universal Action](https://www.alfredap
 
 ![Upload to Imgur with Universal Action](Workflow/images/about/imgurua.png)
 
-View uploaded images with <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> in the `imgur` keyword.
+View uploaded images with <kbd>⌥</kbd><kbd>↩</kbd> in the `imgur` keyword.
 
 ![Viewing uploaded images](Workflow/images/about/imguruploaded.png)
 
-* <kbd>↩&#xFE0E;</kbd> View in Alfred.
-* <kbd>⌘</kbd><kbd>↩&#xFE0E;</kbd> Delete from Imgur.
-* <kbd>⌥</kbd><kbd>↩&#xFE0E;</kbd> Copy image URL.
+* <kbd>↩</kbd> View in Alfred.
+* <kbd>⌘</kbd><kbd>↩</kbd> Delete from Imgur.
+* <kbd>⌥</kbd><kbd>↩</kbd> Copy image URL.
