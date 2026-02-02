@@ -794,21 +794,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>imageresizemode</key>
-				<integer>0</integer>
-				<key>stackview</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.userinterface.image</string>
-			<key>uid</key>
-			<string>036C0BA8-B6B3-42BF-B574-9E1551C612DA</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>jumpto</key>
 				<string>alfred.action.openwith</string>
 				<key>path</key>
@@ -820,6 +805,21 @@
 			<string>alfred.workflow.action.actioninalfred</string>
 			<key>uid</key>
 			<string>5542DB4F-F786-4324-B4F6-9477892800E0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>imageresizemode</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.image</string>
+			<key>uid</key>
+			<string>036C0BA8-B6B3-42BF-B574-9E1551C612DA</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -990,14 +990,6 @@
 			<integer>1</integer>
 		</dict>
 		<dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.junction</string>
-			<key>uid</key>
-			<string>2DA7DC13-AADD-488D-A241-FC02AA754657</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
 			<key>config</key>
 			<dict>
 				<key>argument</key>
@@ -1014,6 +1006,14 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>866210AC-3AC3-4045-9F09-025DED69D491</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>2DA7DC13-AADD-488D-A241-FC02AA754657</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1037,29 +1037,6 @@
 			<string>alfred.workflow.utility.json</string>
 			<key>uid</key>
 			<string>CBBDAB5F-1030-45F8-905D-162E27116281</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:clipboard_keyword}</string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string>Preview Clipboard History screenshots</string>
-				<key>text</key>
-				<string>Clipboard Images</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>5EF556CE-941F-4809-9F6A-9DE52FEB5152</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1101,6 +1078,29 @@
 			<string>20A3B9D4-7548-4FE6-8BF8-3DCDD2A87ECB</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:clipboard_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>Preview Clipboard History screenshots</string>
+				<key>text</key>
+				<string>Clipboard Images</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>5EF556CE-941F-4809-9F6A-9DE52FEB5152</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1213,21 +1213,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>imageresizemode</key>
-				<integer>0</integer>
-				<key>stackview</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.userinterface.image</string>
-			<key>uid</key>
-			<string>9DE0FBF5-CBF4-485B-95F3-78F80C372169</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>columncount</key>
 				<integer>3</integer>
 				<key>filterable</key>
@@ -1255,6 +1240,29 @@
 			<string>alfred.workflow.userinterface.grid</string>
 			<key>uid</key>
 			<string>A2837263-BE9E-4A8F-822C-83639C4D638F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:imgur_keyword}</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string>↩ Take and upload interactive screenshot · ⌥↩ View uploaded images</string>
+				<key>text</key>
+				<string>Screenshot to Imgur</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>EDB57130-8761-496D-ADE2-ACAE5F458C6B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1350,29 +1358,6 @@ function run() {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>{var:imgur_keyword}</string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string>↩ Take and upload interactive screenshot · ⌥↩ View uploaded images</string>
-				<key>text</key>
-				<string>Screenshot to Imgur</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>EDB57130-8761-496D-ADE2-ACAE5F458C6B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>tasksettings</key>
 				<dict>
 					<key>target_path</key>
@@ -1385,6 +1370,21 @@ function run() {
 			<string>alfred.workflow.automation.task</string>
 			<key>uid</key>
 			<string>8B0C5D4A-D96B-4D4C-9221-187606F82481</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>imageresizemode</key>
+				<integer>0</integer>
+				<key>stackview</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.userinterface.image</string>
+			<key>uid</key>
+			<string>9DE0FBF5-CBF4-485B-95F3-78F80C372169</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1457,16 +1457,19 @@ function run() {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>{var:image_url}</string>
+				<string></string>
 				<key>passthroughargument</key>
-				<false/>
+				<true/>
 				<key>variables</key>
-				<dict/>
+				<dict>
+					<key>is_screenshot</key>
+					<string>true</string>
+				</dict>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</string>
+			<string>29CA78D0-485E-4111-872B-F29C62E1E534</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1482,19 +1485,16 @@ function run() {
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string></string>
+				<string>{var:image_url}</string>
 				<key>passthroughargument</key>
-				<true/>
+				<false/>
 				<key>variables</key>
-				<dict>
-					<key>is_screenshot</key>
-					<string>true</string>
-				</dict>
+				<dict/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>29CA78D0-485E-4111-872B-F29C62E1E534</string>
+			<string>3FD8CBCB-ACC4-48C8-8862-532D637C10A2</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1516,27 +1516,6 @@ function run() {
 			<string>3F239DB8-763C-4F6E-A556-C8ABEA59694B</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Copied to Clipboard</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>E8CDBA37-4BFF-4B7E-88CD-3EAB5EFCD47A</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1572,6 +1551,27 @@ function run() {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Copied to Clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>E8CDBA37-4BFF-4B7E-88CD-3EAB5EFCD47A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -1579,26 +1579,6 @@ function run() {
 			<string>alfred.workflow.utility.transform</string>
 			<key>uid</key>
 			<string>CC7F36B2-E09E-404C-87BC-878932D751E9</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>acceptsmulti</key>
-				<integer>1</integer>
-				<key>filetypes</key>
-				<array>
-					<string>+public.image</string>
-					<string>com.adobe.pdf</string>
-				</array>
-				<key>name</key>
-				<string>Upload to Imgur</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.action</string>
-			<key>uid</key>
-			<string>94526ED7-B2CC-46F0-9E61-795A4E5C447F</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1702,6 +1682,26 @@ function run(argv) {
 			<string>1EF5E043-CBC4-4D5A-BB1D-AE870C6809DA</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<integer>1</integer>
+				<key>filetypes</key>
+				<array>
+					<string>+public.image</string>
+					<string>com.adobe.pdf</string>
+				</array>
+				<key>name</key>
+				<string>Upload to Imgur</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>94526ED7-B2CC-46F0-9E61-795A4E5C447F</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
